@@ -1,0 +1,15 @@
+django
+djangorestframework
+# gpt4all
+django-cors-headers
+python-decouple
+google-generativeai
+# streamlit
+# pandas
+# plotly
+# matplotlib
+# seaborn
+# scikit-learn
+# openpyxl
+# xlsxwriter
+
