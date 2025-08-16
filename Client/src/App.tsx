@@ -6,9 +6,9 @@ import Notfound from "./pages/Notfound";
 import Tanveer from "./pages/Tanveer";
 import Maroof from "./pages/Maroof";
 import Analysis from "./pages/Analysis"
-import Concept from "./components/Concept"
 import About from "./pages/About";
 import Chatbot from "./pages/Chatbot";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   const location = useLocation();
@@ -24,10 +24,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="tanveer" element={<Tanveer />} />
-         <Route path="/concept/:id" element={<Concept />} />
+         {/* <Route path="/concept/:id" element={<Concept />} /> */}
         <Route path="maroof" element={<Maroof />} />
         <Route path="about" element={<About />} />
         <Route path="chatbot-ai" element={<Chatbot />} />
+        <Route path="dashboard" element={<Dashboard />} />
+
         <Route path="data-analysis" element={<Analysis />} />
         
         <Route path="*" element={<Notfound />} />
